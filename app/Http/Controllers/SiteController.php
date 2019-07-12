@@ -35,11 +35,14 @@ class SiteController extends Controller
         return view('site.contact');
     }
 
-    public function service($name)
+    public function services($name)
     {
         $tab = TablePrice::all();
         $service = TablePrice::where('name_service', $name)->get();
-        return view('site.service', compact('service', 'tab'));
+        return view('site.service',[
+            'tab'       =>  $tab,
+            'service'   =>  $service
+        ]);
     }
 
 }

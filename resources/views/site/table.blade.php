@@ -22,7 +22,7 @@
 			@foreach($table as $tables)
 				<tr>
 					<td>{{ $tables->id }}</td>
-					<td><a href="{{ $tables->name_service }}">{{ $tables->name_service }}</a></td>
+					<td><a href="{{url('services/'.$tables->name_service)}}">{{ $tables->name_service }}</a></td>
 					<td>{{ number_format($tables->price, 2, ',', ' ')}}</td>
 				</tr>
 			@endforeach

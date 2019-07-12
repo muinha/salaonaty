@@ -16,7 +16,7 @@ Route::get('blog', 'SiteController@blog');
 Route::get('table', 'SiteController@table');
 Route::get('contact', 'SiteController@contact');
 Route::get('photo', 'SiteController@photo');
-Route::get('{name}', 'SiteController@service');
+Route::get('services/{name}', 'SiteController@services');
 
 Auth::routes();
 

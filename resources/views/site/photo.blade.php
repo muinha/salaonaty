@@ -16,7 +16,7 @@
                                 <h5 class="text-white h4">Categorias</h5>
                                 <span class="text-muted">Selecione por categorias.</span>
                                 @foreach($tab as $table)
-                                <a class="nav-link text-white h5" href="{{ $table->name_service }}">{{ $table->name_service }}</a>
+                                <a class="nav-link text-white h5" href="{{url('services/'.$table->name_service)}}">{{ $table->name_service }}</a>
                                 @endforeach
                             </div>
                         </div>
