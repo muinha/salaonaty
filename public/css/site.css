@@ -1,0 +1,359 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:700i&display=swap');
+
+/* Inicio css Template */
+
+    /* Inicio css menu de navegação */
+    .menu-navegation{
+        background: #FF1493;
+    }
+    .menu-navegation li{
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .menu-navegation li:hover{
+        background: pink;
+        border-radius: 20px;
+        transition: 0.5s;
+    }
+    /* Fim css menu de navegação */
+
+    /* Inicio css rodape */
+    .footer-index{
+        background: #FF1493;
+        border-radius: 10px; 
+    }
+    .category-footer h1{
+        padding: 10px;
+        color: white;
+    }
+    .title-rodape{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        color: #FFF0F5;
+    }
+    .category-footer li{
+        background: rgb(240, 44, 148);
+        color: rgb(22, 22, 22);
+        text-decoration: none;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .category-footer li:hover{
+        background: rgb(245, 142, 197);
+        color: rgba(22, 22, 22, 0.445);
+        transition: 0.3s;
+        
+    }
+    .social-network{
+        padding: 50px;
+    }
+    .social-network h1{
+        padding: 10px;
+        color: white;
+    }
+    .social-network h3{
+        color: white;
+    }
+    /* fim css rodape */
+
+/* Fim css Template */
+
+
+
+/******************************************************************************************************************************/
+
+
+
+/* Inicio css index */
+
+    /* Descrição index */
+    .index-description{
+        background: #FFF0F5;
+        margin: 10px;
+        border: 2px rgba(255, 20, 145, 0.034) solid;
+        border-radius: 15px;
+    }
+    .index-description h1{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        color: #FF1493;
+        padding: 20px;
+    }
+    .index-description p{
+        text-indent: 50px;
+    }
+    /* Fim Descrição index */
+
+    /* Categorias index */
+    .index-category{
+        background: #FFF0F5;
+        margin: 10px;
+        border: 2px rgba(255, 20, 145, 0.034) solid;
+        border-radius: 15px;
+    }
+    .index-category h1{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        color: #FF1493;
+        padding: 20px;
+    }
+    .index-image{
+        border: 2px rgba(255, 20, 145, 0.034) solid;
+        margin: auto;
+        width: 300px;
+        padding: 10px;
+    }
+    .index-image:hover{
+        opacity: 0.8;
+        transition: 0.3s;
+    }
+    .index-image img{
+        width: 250px;
+        height: 200px;
+        margin: auto;
+    }
+    .index-image a{
+        color: #FF1493;
+        text-align: center;
+    }
+    .index-image a:hover{
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    /* Fim Categoria index */
+
+    /* Inicio Blog Index */
+    .blog-index{
+        background: #FFF0F5;
+        margin: 10px;
+        border: 2px rgba(255, 20, 145, 0.034) solid;
+        border-radius: 15px;
+    }
+    .blog-index h1{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        color: #FF1493;
+        padding: 20px;       
+    }
+    .blog-index-div{
+        padding: 10px;
+        border: 2px rgba(255, 20, 145, 0.034) solid;
+    }
+    .blog-index-div:hover{
+        opacity: 0.6;
+        transition: 0.3s;
+    }
+    .blog-index-div h2{
+        text-align: center;
+        color: black;
+    }
+    .blog-index-div p{
+        color: rgb(110, 110, 110);
+        text-indent: 50px;
+    }
+    /* Fim Blog Index */
+
+/* Fim css index */
+
+
+/********************************************************************************************/
+
+/* Inicio Css tabela de preço */
+
+    .tabela-preco{
+        background: #FFF0F5;
+        border-radius: 15px;
+        margin: 10px;
+        padding: 20px;
+    }
+    
+    .tabela-preco h1{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        color: #FF1493;
+        padding: 20px; 
+    }
+    .tabela-preco thead{
+        background: rgb(255, 94, 180);
+    }
+    .tabela-preco td{
+        background: rgb(252, 139, 199);
+    }
+
+/* Fim Css tabela de preço */
+
+/************************************************************************************************/
+
+/* Inicio Css contato */
+
+    .contato{
+        background: #FFF0F5;
+        border-radius: 15px;
+        margin: 10px;
+    }
+
+    .contato h1{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        color: #FF1493;
+        padding: 50px; 
+    }
+
+/* Fim Css contato */
+
+/********************************************************************************************/
+
+/* Inicio Css blog */
+
+    .blog{
+        background: #FFF0F5;
+        border-radius: 15px;
+        margin: 10px;
+    }
+
+    .blog h1{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        color: #FF1493;
+        padding: 20px;
+    }
+
+    .blog p{
+        text-indent: 50px;
+        padding: 20px;
+    }
+
+    .blog h2{
+        padding: 20px;
+        font-family: 'Ubuntu', sans-serif; 
+    }
+    
+    .blog a{
+        color: black;
+    }
+    
+    .blog a:hover{
+        color: black;
+    }
+
+/* Fim Css blog */
+
+/**************************************************************************************************/
+
+/* Inicio Photos css */
+
+    .album-fotos{
+        background: #FFF0F5;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .menu-album{
+        background: #FF1493;
+    }
+
+    .album-fotos h1{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        color: #FF1493;
+        padding: 20px;   
+    }
+
+    .album-fotos h4{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        color: #FF1493;
+        margin: 20px;
+    }
+
+    .album-fotos h5{
+        text-align: right;
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+    }
+
+    /* Style the Image Used to Trigger the Modal */
+    #myImg {
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #myImg:hover {opacity: 0.7;}
+
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    }
+
+    /* Modal Content (Image) */
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+    }
+
+    /* Caption of Modal Image (Image Text) - Same Width as the Image */
+    #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 1900px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+    }
+
+    /* Add Animation - Zoom in the Modal */
+    .modal-content, #caption { 
+        animation-name: zoom;
+        animation-duration: 0.6s;
+    }
+
+    @keyframes zoom {
+        from {transform:scale(0)} 
+        to {transform:scale(1)}
+    }
+
+    /* The Close Button */
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /* 80% Quando Ativar o evento onclick */
+    @media only screen and (max-width: 1900px){
+    .modal-content {
+        width: 80%;
+        height: 80%;
+        }
+    }
+
+/* Fim Photos css */

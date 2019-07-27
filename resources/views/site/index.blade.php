@@ -5,8 +5,7 @@
 @section('content')
 
 <!-- Inicio Descriçao info-topo -->
-<div class="index">
-	<div class="container">
+	<div class="container index-description">
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
 				<h1>O que é Lorem Ipsum?</h1>
@@ -21,12 +20,10 @@
 			</div>
 		</div>
 	</div>
-</div>
 <!-- Fim Descriçao info-topo -->
 
 <!-- Inicio Categorias Penteados -->
-<div class="index">
-	<div class="container">
+	<div class="container index-category">
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
 				<h1>Categorias de penteados</h1>
@@ -34,53 +31,51 @@
 			<div class="index-image mb-2 mt-2 col-md-4 col-sm-12">
 				<a href="">
 					<h3>Categoria 1</h3>
-					<img width="300px" class="img-thumbnail rounded mx-auto d-block" src="{{ asset('image/image2.jpg') }}">
+					<img class="img-thumbnail rounded  d-block" src="{{ asset('image/image2.jpg') }}">
 				</a>
 			</div>
 			<div class="index-image mb-2 mt-2 col-md-4 col-sm-12">
 				<a href="">
 					<h3>Categoria 1</h3>
-					<img width="300px" class="img-thumbnail rounded mx-auto d-block" src="{{ asset('image/image2.jpg') }}">
+					<img class="img-thumbnail rounded  d-block" src="{{ asset('image/image2.jpg') }}">
 				</a>
 			</div>
 			<div class="index-image mb-2 mt-2 col-md-4 col-sm-12">
 				<a href="">
 					<h3>Categoria 1</h3>
-					<img width="300px" class="img-thumbnail rounded mx-auto d-block" src="{{ asset('image/image2.jpg') }}">
+					<img class="img-thumbnail rounded  d-block" src="{{ asset('image/image2.jpg') }}">
 				</a>
 			</div>
 			<div class="index-image mb-2 mt-2 col-md-4 col-sm-12">
 				<a href="">
 					<h3>Categoria 1</h3>
-					<img width="300px" class="img-thumbnail rounded mx-auto d-block" src="{{ asset('image/image2.jpg') }}">
+					<img class="img-thumbnail rounded  d-block" src="{{ asset('image/image2.jpg') }}">
 				</a>
 			</div>
 			<div class="index-image mb-2 mt-2 col-md-4 col-sm-12">
 				<a href="">
 					<h3>Categoria 1</h3>
-					<img width="300px" class="img-thumbnail rounded mx-auto d-block" src="{{ asset('image/image2.jpg') }}">
+					<img class="img-thumbnail rounded  d-block" src="{{ asset('image/image2.jpg') }}">
 				</a>
 			</div>
 			<div class="index-image mb-2 mt-2 col-md-4 col-sm-12">
 				<a href="">
 					<h3>Categoria 1</h3>
-					<img width="300px" class="img-thumbnail rounded mx-auto d-block" src="{{ asset('image/image2.jpg') }}">
+					<img class="img-thumbnail rounded  d-block" src="{{ asset('image/image2.jpg') }}">
 				</a>
 			</div>
 		</div>
 	</div>
-</div>
 <!-- Fim Categorias Penteados -->
 
 <!-- Inicio Blog -->
-<div class="index">
-	<div class="container">
+	<div class="container blog-index">
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
 				<h1>Ultimas publicações do Blog</h1>
 				<hr>
 			</div>
-			<div class="col-md-6 col-sm-12">
+			<div class="col-md-6 col-sm-12 blog-index-div">
 				<a href="">
 					<h2>O que é Lorem Ipsum?</h2>
 					<p>
@@ -89,7 +84,7 @@
 				</a>
 				<hr>
 			</div>
-			<div class="col-md-6 col-sm-12">
+			<div class="col-md-6 col-sm-12 blog-index-div">
 				<a href="">
 					<h2>O que é Lorem Ipsum?</h2>
 					<p>
@@ -98,7 +93,7 @@
 				</a>
 				<hr>
 			</div>
-			<div class="col-md-6 col-sm-12">
+			<div class="col-md-6 col-sm-12 blog-index-div">
 				<a href="">
 					<h2>O que é Lorem Ipsum?</h2>
 					<p>
@@ -107,7 +102,7 @@
 				</a>
 				<hr>
 			</div>
-			<div class="col-md-6 col-sm-12">
+			<div class="col-md-6 col-sm-12 blog-index-div">
 				<a href="">
 					<h2>O que é Lorem Ipsum?</h2>
 					<p>
@@ -118,7 +113,6 @@
 			</div>
 		</div>
 	</div>
-</div>
 <!-- Fim Blog -->
 
 @endsection

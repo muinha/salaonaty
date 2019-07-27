@@ -4,34 +4,38 @@
 
 <section>
     <div class="index">
-        <div class="container">
+        <div class="container-fluid album-fotos">
             <div class="row">
                 <div class="col-md-12">
                     <h1>Serviços</h1>
+                    <hr>
                 </div>
-                <div class="col-md-3 col-sm-3 mt-2 mb-2">
+                <div class="col-md-3 col-sm-12 text-center">
                     <div class="pos-f-t">
                         <div class="collapse" id="navbarToggleExternalContent">
-                            <div class="bg-dark p-4">
-                                <h5 class="text-white h4">Categorias</h5>
-                                <span class="text-muted">Selecione por categorias.</span>
+                            <div class="p-4 menu-album">
+                                <h5 class="text-white text-center">Categorias</h5>
+                                <span class="text-muted">Selecione por categoria.</span>
+                                <ul class="list-group">
                                 @foreach($tab as $table)
-                                <a class="nav-link text-white h5" href="{{url('services/'.$table->name_service)}}">{{ $table->name_service }}</a>
+                                    <li class="list-group-item text-center" style="background: #FF1493;"><a style="color: white;" href="{{url('services/'.$table->name_service)}}">{{ $table->name_service }}</a></li>
                                 @endforeach
+                                </ul>
                             </div>
                         </div>
-                        <nav class="navbar navbar-dark menu-navegacao">
-                            <h3 class="text-white">Selecione</h3>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <nav class="navbar navbar-dark" style="background: #FF1493;">
+                        <h5>Selecione</h5>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Alterna navegação">
                             <span class="navbar-toggler-icon"></span>
                             </button>
                         </nav>
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-md-9 col-sm-12">
                     <div class="card-title">
                         @foreach($service as $serv)
-                        <h3>{{ $serv->name_service }}</h3>
+                        <h4>{{ $serv->name_service }}</h4>
+                        <hr>
                         @endforeach
                     </div>
                     <div class="card-body">
